@@ -6,3 +6,23 @@ $(".menu-trigger").on("click", function() {
 $(".menu-close, .off-canvas-overlay").on("click", function() {
 	$(".off-canvas-menu, .off-canvas-overlay").removeClass("active");
 });
+
+// owlCarousel
+$('.client-testimonial').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+		dots:false,
+		autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        767:{
+            items:2
+        },
+        992:{
+            items:2
+        }
+    }
+})
