@@ -120,6 +120,24 @@ li {
 	background: #2B96CC;
 	color: #fff
 }
+a.main-button{
+	font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #F26717;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-color: #F26717;
+    border-radius: 5px 5px 5px 5px;
+    padding: 9px 12px 9px 18px;
+	text-decoration: none;
+}
+a.main-button:hover {
+    color: #ffffff;
+    background-color: #F26717;
+}
 /*
 ==========================================
     Header Area Css
@@ -210,7 +228,14 @@ nav.main-menu ul li a:hover {
 
 /*
 ==========================================
-    Service Area Css
+    About Area Css
+==========================================
+*/
+
+
+/*
+==========================================
+    Service Area Page Css
 ==========================================
 */
 .services-breadcrumb-bg{
@@ -548,9 +573,72 @@ nav.main-menu ul li a:hover {
 ==========================================
 */
 footer{
-    background-color: #000000;
+    background-color: #04002D;
 }
-.footer-text p{
+.footer-logo{
+	width: 50%;
+	max-width: 100%;
+}
+.footer-head h3 {
+    color: #ffffff;
+    font-family: "Roboto", Sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    display: block;
+}
+.footer-menu ul li a i{
+	padding-right: 7px;
+}
+.footer-menu ul li a:hover{
+	color: #C94F08;
+}
+.footer-list{}
+.footer-list ul{}
+.footer-list ul li {
+    color: #ffffff;
+}
+.footer-list ul li i{
+	color: #C94F08;
+	padding-right: 7px;
+}
+.footer-list ul li i:hover{
+	color: #ffffff;
+}
+.footer-list ul li:hover {
+    color: #C94F08;
+}
+.footer-social-media{}
+.footer-social-media ul{}
+.footer-social-media ul li{
+	float: left;
+}
+.footer-social-media ul li a {
+    font-size: 16px;
+    border: 2px solid #C94F08;
+    display: block;
+    margin-right: 10px;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 35px;
+	color: #ffffff;
+}
+.footer-social-media ul li a:hover{
+	color: #ffffff;
+	background-color: #C94F08;
+}
+.footer-bottom {
+    border-top: 1px solid;
+}
+.footer-text p {
     margin: 0px;
     padding: 10px 0px;
     font-size: 16px;
